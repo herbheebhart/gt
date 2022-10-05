@@ -1,6 +1,10 @@
 var displayCal = document.querySelector('.cal_display');
 var displayBtn = document.querySelector('.btn_controls').children ;
 
+var icon = document.querySelector('#icon')
+icon.addEventListener('click',() =>{
+  document.body.classList.toggle("dark_theme");
+})
 var symbols = ['+','-','x','%','C','/','=']; //This allow us to get the available btn
 
 let firstNum = "";
@@ -42,4 +46,5 @@ for(let btn of displayBtn){
         if(btnVal !== '=') displayCal.innerText += btnVal
     })
 }
+
 

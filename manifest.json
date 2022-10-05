@@ -1,0 +1,22 @@
+{
+    "name": "Awesome calculator",
+    "short_name": "calculator",
+    "start_url": "index.html",
+    "scope": "./",
+    "icons": [
+      {
+        "src": "calculator1.png",
+        "sizes": "219x230",
+        "type": "image/png"
+      },
+      {
+        "src": "calculator2.jpeg",
+        "sizes": "255x255",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "portrait"
+  }
